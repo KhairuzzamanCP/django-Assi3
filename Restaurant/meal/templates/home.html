@@ -1,0 +1,42 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <h1><b class="text-primary">ALL Food Item available</b></h1>
+      <ol>
+        <li>
+          <h1 class="text-info">Ghorer Khabar Tk. 425&#2547;</h1>
+          <h4 class="text-success">
+            Fine Quality Steamed Rice (Katari bhog/Nazirshal), served with Thick
+            Daal, Mixed Vegetable Bhaji and choice of Chicken (Local) or Beef
+            Bhuna
+          </h4>
+        </li>
+        <li>
+          <h1 class="text-info">Bhorta Bahar Tk. 400&#2547;</h1>
+          <h4 class="text-success">
+            Fine Quality Steamed Rice (Katari bhog/Nazirshal), served with Thick
+            Daal and your choice of five Bhrota. Choose any five-Begun Bhorta,
+            Aloo Bhorta, Daal Bhorta, Egg Bhorta, Chingri Bhorta, Shutki Bhorta,
+            Mach Bhorta, Sheem Bhorta, Barbati Bhorta, Patal Bhorta, Tomato
+            Bhorta.
+          </h4>
+        </li>
+        <li>
+          <h1 class="text-info">Mach a Bhat a Tk. 400&#2547;</h1>
+          <h4 class="text-success">
+            Fine Quality Steamed Rice (Katari bhog/Nazirshal), served with Thick
+            Daal, Mixed Vegetable Bhaji and choice of Rui/Katal/ Illish Bhaji or
+            Bhuna.
+          </h4>
+        </li>
+      </ol>
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+      <img class="img" src="{% static 'images/r.jpeg'%}" alt="" />
+    </div>
+  </div>
+
+  {% endblock content %}
+</div>
